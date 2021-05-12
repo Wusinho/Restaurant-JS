@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Wusinho/Restaurant-JS/issues"
   },
-  "homepage": "https://github.com/Wusinho/Restaurant-JS#readme"
+  "homepage": "https://github.com/Wusinho/Restaurant-JS#readme",
+  "devDependencies": {
+    "webpack": "^5.37.0"
+  }
 }
