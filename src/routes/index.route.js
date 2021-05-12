@@ -1,7 +1,7 @@
-import Post from "../views/post";
-import Product from "../views/product";
-import Error404 from "../views/error404";
-import Home from "../controllers/index.controller";
+import Home from "../controllers/home.controller";
+import Post from "../controllers/post.controller";
+import About from "../controllers/about.controller";
+import Error404 from "../controllers/error404.controller";
 
 let content = document.getElementById("root");
 
@@ -16,8 +16,8 @@ const router = (route) => {
       return content.appendChild(Post());
     }
 
-    case "#/products": {
-      return content.appendChild(Product());
+    case "#/about": {
+      return content.appendChild(About());
     }
     default: {
       return content.appendChild(Error404());
