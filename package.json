@@ -2,9 +2,12 @@
   "name": "restaurant-js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "start": "webpack serve --open --mode development"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,25 @@
   "bugs": {
     "url": "https://github.com/Wusinho/Restaurant-JS/issues"
   },
-  "homepage": "https://github.com/Wusinho/Restaurant-JS#readme"
+  "homepage": "https://github.com/Wusinho/Restaurant-JS#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "bootstrap": "^5.0.0",
+    "css-loader": "^5.2.4",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^11.1.0",
+    "style-loader": "^2.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.19.0",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
