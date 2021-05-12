@@ -21,8 +21,12 @@
   },
   "homepage": "https://github.com/Wusinho/Restaurant-JS#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "bootstrap": "^5.0.0",
     "css-loader": "^5.2.4",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
     "node-sass": "^6.0.0",
