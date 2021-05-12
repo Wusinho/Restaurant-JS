@@ -6,6 +6,10 @@ This is a restaurant page coded using JavaScript to generate the entire contents
 
 ![screenshot](./src/assets/Restaurant-JS.png)
 
+## Live View
+
+[Live View](https://rawcdn.githack.com/Wusinho/Restaurant-JS/3036c1af5021332b28b47cc088bd978265ebd657/dist/index.html)
+
 ## Built with
 
 - HTML
