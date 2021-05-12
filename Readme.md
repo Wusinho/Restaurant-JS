@@ -2,7 +2,7 @@
 
 ## About
 
-A restaurant page, using JavaScript to generate the entire contents of the website. The scope of this project is a deeper understanding of Webpack and DOM manipulation with JS.
+This is a restaurant page coded using JavaScript to generate the entire contents of the website. The scope of this project is a deeper understanding of Webpack and DOM manipulation with JS.
 
 ![screenshot](./src/assets/Restaurant-JS.png)
 
@@ -54,12 +54,11 @@ Feel free to check the [issues page](https://github.com/Wusinho/Restaurant-JS/is
 ## Acknowledgments
 
 - Microverse
-- The Odin Project
 - Anyone whose detailed code inspired the creation of this project.
 
 ## 📝 License
 
-This project is [MIT](license) licensed.
+This project is [MIT](LICENSE) licensed.
 
 \*\*
 Give a ⭐️ if you like this project!
